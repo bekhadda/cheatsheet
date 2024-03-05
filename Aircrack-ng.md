@@ -5,8 +5,6 @@
     <meta name="author" content="MarkdownViewer++" />
     
 }
-
-        </style>
   </head>
   <body>
     <h1 id="aircrack-ng-cheat-sheet">Aircrack-ng Cheat Sheet</h1>
