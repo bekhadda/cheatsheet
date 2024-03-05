@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="author" content="MarkdownViewer++" />
     
-}
   </head>
   <body>
     <h1 id="aircrack-ng-cheat-sheet">Aircrack-ng Cheat Sheet</h1>
