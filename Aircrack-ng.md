@@ -3,12 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="MarkdownViewer++" />
-    <title>aircrack_ng_cheat_sheet.txt</title>
-    <style type="text/css">
-            
-/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
-td, h1, h2, h3, h4, h5, p, ul, ol, li {
-    page-break-inside: avoid; 
+    
 }
 
         </style>
