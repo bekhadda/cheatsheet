@@ -9,7 +9,7 @@ hping3 -c 10000 --flood  -1 -I eth0 --rand-source
 ```
 Cette commande enverra 10 000 paquets ICMP de type ping aussi rapidement que possible sur l'interface réseau eth0, en utilisant des adresses IP sources aléatoires pour chaque paquet.
 
-## Scan port ouvert ou non
+## Scan des ports
 ```
 hping3 --scan 0-6500 X.X.X.X
 ```
