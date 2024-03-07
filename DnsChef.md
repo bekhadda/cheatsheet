@@ -9,7 +9,6 @@ DNSChef peut être installé directement depuis les dépôts de votre système d
 ### Via Git
 
 ```bash
-git clone https://github.com/iphelix/dnschef.git
 cd dnschef
 python dnschef.py
 Utilisation de base
