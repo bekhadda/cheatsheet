@@ -1,39 +1,43 @@
 # Burp Suite Cheat Sheet
 
-## Installation et configuration
-- **Télécharger** : Aller sur le site officiel de PortSwigger pour télécharger Burp Suite.
-- **Configuration du proxy** : Configurer le navigateur pour utiliser le proxy de Burp Suite (127.0.0.1:8080 par défaut).
+## Configuration initiale
+- **Installation** : Télécharger depuis le site de PortSwigger.
+- **Configuration du Proxy** : Configurer le navigateur pour utiliser le proxy de Burp (127.0.0.1:8080 par défaut).
 
-## Utilisation de base
+## Composants principaux
 ### Proxy
-- **Intercepter les requêtes** : Activer l'interception dans l'onglet "Proxy" > "Intercept" pour voir et modifier les requêtes/réponses entre le navigateur et le serveur.
-- **Règles d'interception** : Configurer des règles spécifiques pour automatiser l'interception des requêtes.
+- **Interception** : `Proxy > Intercept` pour capturer/modifier les requêtes/réponses.
+- **Historique** : Examiner les requêtes passées sous `Proxy > HTTP history`.
 
 ### Spider
-- **Lancer le Spider** : Utiliser le Spider pour découvrir automatiquement les ressources et les liens d'une application web.
+- **Lancement** : Utiliser pour automatiser l'exploration des applications web.
 
 ### Scanner
-- **Scan passif** : Le scan passif écoute le trafic passé à travers le Proxy sans envoyer de requêtes supplémentaires.
-- **Scan actif** : Le scan actif envoie des requêtes pour tester les vulnérabilités des applications.
-
-### Repeater
-- **Modifier et renvoyer les requêtes** : Utiliser le Repeater pour modifier les requêtes interceptées et observer les réponses du serveur.
+- **Scan Passif et Actif** : Identifier les vulnérabilités. Le scan actif doit être utilisé avec précaution pour éviter d'endommager le système cible.
 
 ### Intruder
-- **Attaques automatisées** : Configurer l'Intruder pour effectuer des attaques automatisées (brute force, fuzzing, etc.).
+- **Attaques** : Automatiser les attaques de type brute-force ou customisées.
+- **Types d'attaques** : Sniper, Battering ram, Pitchfork, Cluster bomb.
+
+### Repeater
+- **Requêtes manuelles** : Envoyer des requêtes HTTP modifiées pour tester des vulnérabilités spécifiques.
+
+### Sequencer
+- **Analyse de tokens** : Évaluer la qualité des tokens de session ou autres.
 
 ### Decoder
-- **Encoder/Décoder des données** : Utiliser le Decoder pour encoder ou décoder des données dans différents formats.
+- **Encodage/Décodage** : Convertir des données entre différents formats.
 
-## Astuces et raccourcis
-- **Raccourcis clavier** : Utiliser les raccourcis clavier pour naviguer plus rapidement dans Burp Suite.
-- **Extensions Burp** : Explorer le BApp Store pour trouver des extensions utiles.
+## Bonnes pratiques
+- Toujours obtenir une autorisation formelle avant de tester un système.
+- Utiliser Burp Suite dans un environnement de test ou avec des systèmes pour lesquels vous avez une permission explicite.
 
-## Sécurité et bonnes pratiques
-- **Ne jamais tester sans permission** : Toujours obtenir une autorisation explicite avant de tester une application.
-- **Utiliser un environnement de test** : Préférer tester dans un environnement de test plutôt que sur une application en production.
+## Raccourcis utiles
+- **Ctrl+I** : Activer/désactiver l'interception.
+- **Ctrl+R** : Envoyer une requête du Proxy à Repeater.
+- **Ctrl+S** : Envoyer une requête à Sequencer.
 
----
+## Extensions
+- Utiliser le BApp Store pour étendre les fonctionnalités de Burp Suite avec des plugins développés par la communauté.
 
-Ceci est une introduction de base à Burp Suite. Pour une utilisation plus avancée, veuillez consulter la documentation officielle et d'autres ressources en ligne.
 
