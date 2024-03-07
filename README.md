@@ -33,7 +33,7 @@ BEKHADDA Abdel
 THIAW Jean-François
 VIALAT Maxence
 SERIN Thibault
-SOUTARÇAN Thomas
+SOUTARSON Thomas
 
 ## Licence
 
