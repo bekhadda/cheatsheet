@@ -39,10 +39,3 @@ SOUTARSON Thomas
 
 Distribué sous la Licence IPI. Voir `LICENSE` pour plus d'informations.
 
-## Contact
-
-Votre Nom - [@votreTwitter](https://twitter.com/votreTwitter) - email@example.com
-
-Lien du Projet: [https://github.com/votreUsername/votreDepot](https://github.com/votreUsername/votreDepot)
-
-Nous espérons que cette boîte à outils vous sera utile. Bon pentesting !
